@@ -1,7 +1,12 @@
 import React from 'react';
-import './styles.css'; // CSS 파일 경로에 맞게 수정해주세요.
+import './styles.css'; 
+import { useNavigate } from 'react-router-dom';
+const Second_Main = () => {
+  const navigate = useNavigate();
 
-const MyPageComponent = () => {
+  const handleMainRequest = () => {
+    navigate('/');
+  };
   return (
 <div className="e81_28">
       <div className="e28_89">
@@ -12,7 +17,7 @@ const MyPageComponent = () => {
         <div className="e28_93"></div>
         <span className="e28_94">LOGOUT</span>
       </div>
-      <span className="e28_95">CHANGUP</span>
+      <button onClick={handleMainRequest}> <span className="e28_95" >CHANGUP</span></button>
       <div className="e28_113">
         <div className="e28_96"></div>
         <div className="e28_97">
@@ -59,4 +64,4 @@ const MyPageComponent = () => {
 
   );
 };
-export default MyPageComponent;
+export default Second_Main;
