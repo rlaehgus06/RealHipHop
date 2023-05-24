@@ -1,0 +1,280 @@
+.60_11 { 
+	overflow:hidden;
+}
+.e60_11 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}
+.e60_12 { 
+	color:rgba(87.0595072209835, 103.11052232980728, 247.56250709295273, 1);
+	width:228px;
+	height:69px;
+	position:absolute;
+	left:69px;
+	top:38px;
+	font-family:AppleSDGothicNeoH00;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+}
+.e60_13 { 
+	color:rgba(134.93749290704727, 134.93749290704727, 134.93749290704727, 1);
+	width:250px;
+	height:49px;
+	position:absolute;
+	left:81px;
+	top:142px;
+	font-family:AppleSDGothicNeoUL00;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e60_14 { 
+	width:519px;
+	height:296px;
+	position:absolute;
+	left:81px;
+	top:227px;
+	background-image:url(images/rectangle_13.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e60_15 { 
+	color:rgba(0, 0, 0, 1);
+	width:731px;
+	height:55px;
+	position:absolute;
+	left:661px;
+	top:240px;
+	font-family:AppleSDGothicNeoUL00;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e60_21 { 
+	width:351px;
+	height:192px;
+	position:absolute;
+	left:676px;
+	top:318px;
+}
+.e60_16 { 
+	color:rgba(0, 0, 0, 1);
+	width:262px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:AppleSDGothicNeoUL00;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e60_18 { 
+	color:rgba(0, 0, 0, 1);
+	width:340px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:53px;
+	font-family:AppleSDGothicNeoUL00;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	list-style-type: disc;
+}
+.e60_19 { 
+	color:rgba(0, 0, 0, 1);
+	width:258px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:106px;
+	font-family:AppleSDGothicNeoUL00;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e60_20 { 
+	color:rgba(0, 0, 0, 1);
+	width:351px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:159px;
+	font-family:AppleSDGothicNeoUL00;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e60_22 { 
+	color:rgba(15.052082911133766, 106.2499974668026, 62.47500501573086, 1);
+	width:142px;
+	height:50px;
+	position:absolute;
+	left:84px;
+	top:608px;
+	font-family:AppleSDGothicNeoSB00;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.e60_26 { 
+	color:rgba(18.46093699336052, 147.68749594688416, 85.658750385046, 1);
+	width:256px;
+	height:67px;
+	position:absolute;
+	left:84px;
+	top:663px;
+	font-family:AppleSDGothicNeoSB00;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+	text-decoration-line: underline;
+	text-decoration-thickness: 2px;
+	text-underline-position : under;
+}
+.e60_23 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:350px;
+	height:89.98455810546875px;
+	position:absolute;
+	left:1027px;
+	top:785px;
+}
+.e60_24 { 
+	background-color:rgba(21.51562537997961, 72.7228233218193, 172.12500303983688, 1);
+	width:350px;
+	height:89.98455810546875px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+.e60_25 { 
+	color:rgba(255, 255, 255, 1);
+	width:147px;
+	height:46px;
+	position:absolute;
+	left:101px;
+	top:22px;
+	font-family:AppleSDGothicNeoL00;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e60_29 { 
+	width:429px;
+	height:92px;
+	position:absolute;
+	left:69px;
+	top:749px;
+}
+.e60_28 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(236.01665943861008, 241.7484998703003, 252.87500202655792, 1);
+	width:429px;
+	height:92px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e60_27 { 
+	color:rgba(0, 0, 0, 1);
+	width:353px;
+	height:89px;
+	position:absolute;
+	left:36px;
+	top:1px;
+	font-family:AppleSDGothicNeoSB00;
+	text-align:left;
+	font-size:64px;
+	letter-spacing:0;
+}
+.e60_31 { 
+	width:47px;
+	height:46px;
+	position:absolute;
+	left:1327px;
+	top:48px;
+}
+.ei60_31_1283_102088 { 
+	width:39.166664123535156px;
+	height:40.25px;
+	position:absolute;
+	left:3.9166667461395264px;
+	top:1.9166666269302368px;
+}
+.e60_39 { 
+	width:39px;
+	height:42px;
+	position:absolute;
+	left:1338px;
+	top:52px;
+}
+.e99_31 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:113.02887725830078px;
+	height:33px;
+	position:absolute;
+	left:-113px;
+	top:4px;
+}
+.e99_32 { 
+	background-color:rgba(21.51562537997961, 72.7228233218193, 172.12500303983688, 1);
+	width:113.02887725830078px;
+	height:28.328472137451172px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+.e99_33 { 
+	color:rgba(255, 255, 255, 1);
+	width:78px;
+	height:32px;
+	position:absolute;
+	left:18px;
+	top:1px;
+	font-family:AppleSDGothicNeoL00;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.e60_101 { 
+	width:35px;
+	height:33px;
+	position:absolute;
+	left:1055px;
+	top:733px;
+}
+.e60_102 { 
+	color:rgba(0, 0, 0, 1);
+	width:35px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:AppleSDGothicNeoB00;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e99_34 { 
+	width:39px;
+	height:27px;
+	position:absolute;
+	left:1016px;
+	top:736px;
+	background-image:url(images/___________2023_05_24______10_06_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
