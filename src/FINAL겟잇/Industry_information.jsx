@@ -1,27 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Industry_information.css';
+import { useNavigate } from 'react-router-dom';
 
-const Industry_Inform = ({ handleMainRequest }) => {
-  const [showMain, setMain] = useState(false);
+const Industry_Inform = () => {
+  const navigate = useNavigate();
 
-  const MainRequest = () => {
-    setMain(true);
-    if (handleMainRequest) {
-      handleMainRequest();
-    }
+  const handleMainRequest = () => {
+    navigate('/');
   };
-
-  const LogoutRequests = () => {
-    window.location.href = 'main.jsx';
+  
+  const handleLogoutRequest = () => {
+    // Add your logout logic here
+    navigate('/');
   };
 
   return (
     <div className="e30_154">
-      {!showMain ? (
-        <button onClick={MainRequest}>
-          <span className="e31_155"> CHANGUP</span>
-        </button>
-      ) : null}
+      <button onClick={handleMainRequest}>
+        <span className="e31_155"> CHANGUP</span>
+      </button>
       <span className="e35_16">홍길동 기업</span>
       <div className="e60_100">
         <span className="e35_17">♡123</span>
@@ -31,8 +28,10 @@ const Industry_Inform = ({ handleMainRequest }) => {
       </div>
       <span className="e35_41">친환경 기술 - 바이오기술</span>
       <div className="e35_29">
-        <div className="e35_30"></div>
+        <button className="e35_30" onClick={handleMainRequest}>
         <span className="e35_31">마이페이지</span>
+        </button>
+        
       </div>
       <div className="e35_46">
         <button className="e35_47">
@@ -40,7 +39,7 @@ const Industry_Inform = ({ handleMainRequest }) => {
         </button>
       </div>
       <div className="e35_32">
-        <button className="e35_33" onClick={LogoutRequests}>
+        <button className="e35_33" onClick={handleLogoutRequest}>
           <span className="e35_34"> LOGOUT</span>
         </button>
       </div>
