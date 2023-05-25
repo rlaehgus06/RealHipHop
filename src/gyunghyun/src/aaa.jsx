@@ -14,19 +14,18 @@ const Second_Main = () => {
 <div className="e81_28">
       <div className="e28_89">
         <div className="e28_90"></div>
-        <span className="e28_91">마이페이지</span>
+        <button><span className="e28_91">마이페이지</span></button>
       </div>
       <div className="e28_92">
-        <div className="e28_93"></div>
+        <button><div className="e28_93"></div></button>
         <span className="e28_94">LOGOUT</span>
       </div>
       <button onClick={handleMainRequest}> <span className="e28_95" >CHANGUP</span></button>
       <div className="e28_113">
-        <div className="e28_96"></div>
+        <div className="e28_96"><span className="e28_102">검색어를 입력하세요</span></div>
         <div className="e28_97">
           <div className="ei28_97_28_12"></div>
         </div>
-        <span className="e28_102">검색어를 입력하세요.</span>
       </div>
       <div className="e30_153">
         <div className="e28_127">
