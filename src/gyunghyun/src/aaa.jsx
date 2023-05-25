@@ -7,6 +7,9 @@ const Second_Main = () => {
   const handleMainRequest = () => {
     navigate('/');
   };
+  const handleIndustryRequest = () => {
+    navigate('/industry');
+  }
   return (
 <div className="e81_28">
       <div className="e28_89">
@@ -43,7 +46,7 @@ const Second_Main = () => {
             {/* 첫 번째 사진 */}
           </div>
           <div className="e28_101"></div>
-          <div className="e28_128"></div>
+          <button onClick={handleIndustryRequest} className="e28_128"></button>
           <span className="e28_147">수인제조</span>
           <span className="e28_148">수인제조</span>
           <div className="e28_130"></div>

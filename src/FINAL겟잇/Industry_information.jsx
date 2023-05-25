@@ -8,7 +8,7 @@ const Industry_Inform = () => {
   const handleMainRequest = () => {
     navigate('/');
   };
-
+  
   const handleLogoutRequest = () => {
     // Add your logout logic here
     navigate('/');
@@ -28,8 +28,10 @@ const Industry_Inform = () => {
       </div>
       <span className="e35_41">친환경 기술 - 바이오기술</span>
       <div className="e35_29">
-        <div className="e35_30"></div>
+        <button className="e35_30" onClick={handleMainRequest}>
         <span className="e35_31">마이페이지</span>
+        </button>
+        
       </div>
       <div className="e35_46">
         <button className="e35_47">
