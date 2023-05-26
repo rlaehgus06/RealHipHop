@@ -20,6 +20,7 @@ const Second_Main = () => {
 <div class="e155_54">
   <div class="e155_38"></div>
   <div class="e155_40"></div>
+  <div class="e160_55"></div>
   <span  class="e155_44">IT - 프로그래밍</span>
   <span  class="e155_53">제조 </span>
   <span  class="e155_46">디자인</span>
