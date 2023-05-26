@@ -1,4 +1,5 @@
-import { auth } from './fbase';
+import React from 'react';
+import { auth } from '.././fbase';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { createUserWithEmailAndPassword,
         onAuthStateChanged,

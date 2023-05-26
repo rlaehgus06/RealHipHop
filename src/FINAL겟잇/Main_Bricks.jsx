@@ -11,7 +11,7 @@ const Main_Bricks = () => {
 
   const handleLoginRequest = () => {
     // Add your login logic here
-    window.location.href = 'your-target-page-url';
+    navigate('/LoginPage');
   };
 
   return (

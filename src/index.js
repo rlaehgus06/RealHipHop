@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Routing from './Routing';
+import FundingPage from './fundingpage/funding.jsx'
+import Login from './loginPage/login'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
