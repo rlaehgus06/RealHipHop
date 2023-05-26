@@ -15,15 +15,26 @@ const Second_Main = () => {
     navigate('/Second_Main_Formal');
   };
   return (
+    
 <div className="e81_28">
+<div class="e155_54">
+  <div class="e155_38"></div>
+  <div class="e155_40"></div>
+  <span  class="e155_44">IT - 프로그래밍</span>
+  <span  class="e155_53">제조 </span>
+  <span  class="e155_46">디자인</span>
+  </div>
       <div className="e28_89">
+      
         <div className="e28_90"></div>
+        
         <button><span className="e28_91">마이페이지</span></button>
       </div>
       <div className="e28_92">
         <button><div className="e28_93"></div></button>
         <span className="e28_94">LOGOUT</span>
       </div>
+      
       <button onClick={handleMainRequest}> <span className="e28_95" >CHANGUP</span></button>
       <div className="e28_113">
         <div className="e28_96"><span className="e28_102">검색어를 입력하세요</span></div>
@@ -31,11 +42,16 @@ const Second_Main = () => {
           <div className="ei28_97_28_12"></div>
         </div>
       </div>
+      
       <div className="e30_153">
+        
         <div className="e28_127">
+          
           <div className="e28_126">
+            
             <button className="e28_120" onClick={handleGotoFormalUser}></button>
             <span className="e28_123">일반 사용자</span>
+            
           </div>
           <div className="e28_125">
             <div className="e28_119"></div>
@@ -52,9 +68,11 @@ const Second_Main = () => {
           <button onClick={handleIndustryRequest} className="e28_128"></button>
           <span className="e28_147">수인제조</span>
           <span className="e28_148">수인제조</span>
+          
           <div className="e28_130"></div>
           <div className="e29_149"></div>
           <div className="e28_131"></div>
+          
           <div className="e28_132" style={{ overflow: 'hidden' }}>
             {/* 두 번째 사진 */}
           </div>
@@ -73,10 +91,14 @@ const Second_Main = () => {
         {/* 세 번째 사진 */}
       </div>
       {/* ... */}
+      
     </div>
+    
 
         </div>
+        
       </div>
+      
     </div>
 
   );
