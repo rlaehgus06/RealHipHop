@@ -13,6 +13,11 @@ const Industry_Inform = () => {
     // Add your logout logic here
     navigate('/');
   };
+  
+  const handleGotoEstimate = () =>
+  {
+    navigate('/Estimate');
+  }
 
   return (
     <div className="e30_154">
@@ -34,7 +39,7 @@ const Industry_Inform = () => {
         
       </div>
       <div className="e35_46">
-        <button className="e35_47">
+        <button className="e35_47" onClick={handleGotoEstimate}>
           <span className="e35_48">견적 요청하기</span>
         </button>
       </div>

@@ -9,7 +9,11 @@ const Second_Main = () => {
   };
   const handleIndustryRequest = () => {
     navigate('/industry');
-  }
+  };
+  const handleGotoFormalUser = () =>
+  {
+    navigate('/Second_Main_Formal');
+  };
   return (
 <div className="e81_28">
       <div className="e28_89">
@@ -30,7 +34,7 @@ const Second_Main = () => {
       <div className="e30_153">
         <div className="e28_127">
           <div className="e28_126">
-            <div className="e28_120"></div>
+            <button className="e28_120" onClick={handleGotoFormalUser}></button>
             <span className="e28_123">일반 사용자</span>
           </div>
           <div className="e28_125">
@@ -38,7 +42,7 @@ const Second_Main = () => {
             <span className="e28_122">제조업체</span>
           </div>
           
-            <div className="e28_118"></div>
+            <button className="e28_118" ></button>
             <span className="e28_121">예비창업자</span>
          
           <div className="e28_98" style={{ position: 'absolute', top: 0 }}>

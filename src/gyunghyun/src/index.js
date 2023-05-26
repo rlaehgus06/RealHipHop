@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MyPageComponent from './aaa'
+import Routing from '../../Routing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyPageComponent />
+    <Routing />
   </React.StrictMode>
 )
 
