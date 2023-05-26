@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyPageComponent from './aaa'
+import desktop2 from './desktop2'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyPageComponent />
+    <desktop2 />
   </React.StrictMode>
 )
 
