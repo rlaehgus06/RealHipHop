@@ -37,10 +37,10 @@ const Second_Main = () => {
             <div className="e28_119"></div>
             <span className="e28_122">제조업체</span>
           </div>
-          <div className="e28_124">
+          
             <div className="e28_118"></div>
             <span className="e28_121">예비창업자</span>
-          </div>
+         
           <div className="e28_98" style={{ position: 'absolute', top: 0 }}>
             {/* 첫 번째 사진 */}
           </div>

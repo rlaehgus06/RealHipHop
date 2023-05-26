@@ -12,9 +12,9 @@ const Routing = () => {
       <Routes>
         <Route path="/" element={<Main_Bricks />} />
         <Route path="/industry" element={<Industry_Inform />} />
-        <Route path="Second_Main" element={<Second_Main/>}/>
-        <Route path="FundingPage" element={<FundingPage/>}/>
-        <Route path="LoginPage" element={<LoginPage/>}/>
+        <Route path="/Second_Main" element={<Second_Main/>}/>
+        <Route path="/FundingPage" element={<FundingPage/>}/>
+        <Route path="/LoginPage" element={<LoginPage/>}/>
       </Routes>
     </Router>
   );
