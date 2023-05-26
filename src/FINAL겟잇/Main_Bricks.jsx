@@ -18,7 +18,7 @@ const Main_Bricks = () => {
     <div className="e78_28">
       <span className="e18_6">CHANGUP</span>
       <span className="e23_3">
-        창업의 시작이 두렵거나, 창업의 미래를 밝히고 싶을 때.
+        창업의 시작이 두렵거나, <br />창업의 미래를 밝히고 싶을 때. 
       </span>
       <div className="e1_34">
         <div className="e18_3">

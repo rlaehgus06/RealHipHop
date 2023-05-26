@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Main_Bricks from './FINAL겟잇/Main_Bricks';
 import Industry_Inform from './FINAL겟잇/Industry_information';
-import Second_Main from './gyunghyun/src/aaa';
+import Second_Main from './gyunghyun/src/founder';
 import FundingPage from './fundingpage/funding'
 import LoginPage from './loginPage/loginPage'
 

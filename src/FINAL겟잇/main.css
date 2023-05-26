@@ -1,4 +1,4 @@
-.78_28 { 
+.d78_28 { 
 	overflow:hidden;
 }
 .e78_28 { 
@@ -27,18 +27,20 @@
 	letter-spacing:0;
     text-decoration: underline;
 }
-.e23_3 { 
-	color:rgba(135.7986482977867, 134.76484537124634, 147.68749594688416, 1);
-	width:687px;
-	height:156px;
-	position:absolute;
-	left:181px;
-	top:489px;
-	font-family:AppleSDGothicNeoSB00;
-	text-align:left;
-	font-size:48px;
-	letter-spacing:0;
+.e23_3 {
+	color: rgba(135.7986482977867, 134.76484537124634, 147.68749594688416, 1);
+	width: 687px;
+	height: 156px;
+	position: absolute;
+	left: 181px;
+	top: 489px;
+	font-family: AppleSDGothicNeoSB00;
+	text-align: left;
+	font-size: 48px;
+	letter-spacing: 0;
+	white-space: pre-line;
 }
+
 .e1_34 { 
 	width:131px;
 	height:46.876712799072266px;
