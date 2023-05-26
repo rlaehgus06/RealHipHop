@@ -16,6 +16,11 @@ const desktop2 = () => {
     navigate('/');
   };
 
+  const GotoFundingPage = () =>
+  {
+    navigate('/FundingPage');
+  };
+
   return (
     <div className="e135_41">
       <div className="e60_47">
@@ -54,7 +59,7 @@ const desktop2 = () => {
                 <span className="ei60_60_28_121">예비창업자</span>
               </div>
               <div className="e60_61"></div>
-              <div className="e60_63"></div>
+              <button className="e60_63" onClick = {GotoFundingPage}></button>
               <div className="e60_66"></div>
               <div className="e60_67"></div>
               <div className="e60_68"></div>

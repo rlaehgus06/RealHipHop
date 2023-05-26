@@ -7,10 +7,10 @@ const FundingPage = () => {
     
     const handleIndustryRequest = () => {
         navigate('/');
-    }
+    };
   return (
     <div className="e60_11">
-      <button onclick = {handleIndustryRequest}><span className="e60_12">CHANGUP</span></button>
+      <button onClick = {handleIndustryRequest}><span className="e60_12">CHANGUP</span></button>
       <span className="e60_13">음식 &gt; 과일</span>
       <div className="e60_14"></div>
       <span className="e60_15">하우스수박 NO! 국내산 100% 무설탕 수박주스</span>

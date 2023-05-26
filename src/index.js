@@ -5,8 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Routing from './Routing';
 import FundingPage from './fundingpage/funding.jsx'
-import Login from './loginPage/login'
-
+import Login from './loginPage/loginaaaa';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
