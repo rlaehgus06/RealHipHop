@@ -119,6 +119,10 @@
 	position:absolute;
 	left:0.5px;
 	top:0.5px;
+	background-image:url(./images/10.PNG);
+	background-repeat:no-repeat;
+	background-size:cover;
+
 }
 .ei60_55_28_102 { 
 	color:rgba(120.06249949336052, 109.05677005648613, 109.05677005648613, 1);
