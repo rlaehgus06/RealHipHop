@@ -61,9 +61,20 @@ const Second_Main = () => {
           <div className="e28_133" style={{ overflow: 'hidden' }}>
             {/* 세 번째 사진 */}
           </div>
-          <div className="e29_150"></div>
-          <div className="e29_151"></div>
-          <div className="e29_152"></div>
+          <div className="e81_28">
+      {/* ... */}
+      <div className="e29_150" style={{ overflow: 'hidden' }}>
+        {/* 첫 번째 사진 */}
+      </div>
+      <div className="e29_151" style={{ overflow: 'hidden' }}>
+        {/* 두 번째 사진 */}
+      </div>
+      <div className="e29_152" style={{ overflow: 'hidden' }}>
+        {/* 세 번째 사진 */}
+      </div>
+      {/* ... */}
+    </div>
+
         </div>
       </div>
     </div>
