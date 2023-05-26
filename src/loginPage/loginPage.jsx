@@ -1,29 +1,43 @@
 import React from 'react';
 import './style.css';
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+
+import { auth } from '.././fbase';
+
+import { signIn, emailLogin, logOut, } from "./loginFucntions";
 
 const LoginPage = () => {
+    const [userData, setUserData] = useState(null);
+    const [Email, setEmail] = useState("");
+    const [Password, setPassword] = useState("");
+    
+    const handleSignIn = () => {
+        signIn(auth, Email, Password);
+    };
+    const handleEmailLogin = () => {
+        emailLogin(auth, Email, Password, setUserData);
+    };
+    const handleLogOut = () => {
+        logOut(auth, setUserData);
+    };
+    
     const navigate = useNavigate();
     
-  return (
+    return (
     <div className="e56_11">
       <div className="e91_35">
         <span className="e56_12">CHANGUP</span>
         <div className="e61_11"></div>
-        <div className="e60_108"></div>
-        <span className="e60_112">ID</span>
-        <div className="e60_110"></div>
-        <div className="e61_38"></div>
-        <span className="e60_113">PW</span>
+        <input className="e60_108" placeholder="ID" onChange={(e) => {
+            setEmail(e.target.value);
+          }}></input>
+        <input className="e60_110" placeholder="PW" onChange={(e) => {
+            setPassword(e.target.value);
+          }}></input>
+        <button className="e61_38" onClick = {handleEmailLogin}><span className="e60_124">로그인하기</span></button>
         <span className="e60_115">아이디찾기</span>
         <span className="e60_116">비밀번호찾기</span>
-        <span className="e60_124">로그인하기</span>
-        <div className="e60_125">
-          <div className="e60_129"></div>
-        </div>
-        <div className="e60_130">
-          <div className="e60_134"></div>
-        </div>
       </div>
     </div>
   );
