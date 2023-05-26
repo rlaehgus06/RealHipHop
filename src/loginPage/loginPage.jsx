@@ -11,18 +11,22 @@ const LoginPage = () => {
     const [userData, setUserData] = useState(null);
     const [Email, setEmail] = useState("");
     const [Password, setPassword] = useState("");
+    const navigate = useNavigate();
     
     const handleSignIn = () => {
         signIn(auth, Email, Password);
     };
     const handleEmailLogin = () => {
-        emailLogin(auth, Email, Password, setUserData);
+        emailLogin(auth, Email, Password, setUserData)
+        .then(() => {navigate("/Second_Main");})
+        .catch((error) => {
+            console.log('로그인 에러');
+            alert("아이디나 비밀번호가 잘못되었습니다.");
+        });
     };
     const handleLogOut = () => {
         logOut(auth, setUserData);
     };
-    
-    const navigate = useNavigate();
     
     return (
     <div className="e56_11">

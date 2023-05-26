@@ -23,18 +23,22 @@ function signIn(a, Email, Password) {
 }
 
 function emailLogin(a, Email, Password, setStateFunction) {
-  onAuthStateChanged(a, (currentUser) => {
-    setStateFunction(currentUser);
-  });
-  const user = new GoogleAuthProvider(); // provider를 구글로 설정
-  signInWithEmailAndPassword(a, Email, Password) // 이메일을 이용한 로그인
-    .then((userCredential) => {
-      setStateFunction(userCredential.user);
-    })
-    .catch((err) => {
-      console.log(err);
+  return new Promise((resolve, reject) => {
+    onAuthStateChanged(a, (currentUser) => {
+      setStateFunction(currentUser);
     });
+    const user = new GoogleAuthProvider();
+    signInWithEmailAndPassword(a, Email, Password)
+      .then((userCredential) => {
+        setStateFunction(userCredential.user);
+        resolve();
+      })
+      .catch((err) => {
+        reject(err);
+      });
+  });
 }
+
 
 function logOut(a, setStateFunction) {
   onAuthStateChanged(a, (currentUser) => {
