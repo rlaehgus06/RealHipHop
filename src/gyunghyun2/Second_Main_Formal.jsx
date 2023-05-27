@@ -16,7 +16,7 @@ const desktop2 = () => {
     navigate('/');
   };
 
-  const GotoFundingPage = () =>
+    const GotoFundingPage = () =>
   {
     navigate('/FundingPage');
   };

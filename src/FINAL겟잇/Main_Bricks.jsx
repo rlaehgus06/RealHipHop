@@ -23,14 +23,14 @@ const Main_Bricks = () => {
       <div className="e1_34">
         <div className="e18_3">
           <button className="e18_4" onClick={handleLoginRequest}>
-            <span className='e18_5'>LOGIN</span>
+            <span className='e18_5'>회원가입</span>
           </button>
         </div>
       </div>
       
       <div className="e1_33">
-        <button className="e1_15" onClick={handleServiceRequest}>
-          <span className="e1_20">견적 요청하기</span>
+        <button className="e1_15" onClick={handleLoginRequest}>
+          <span className="e1_20">지금 시작하기</span>
         </button>
       </div>
     </div>

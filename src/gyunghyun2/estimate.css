@@ -55,11 +55,11 @@
 }
 .e35_70 { 
 	color:rgba(255, 255, 255, 1);
-	width:74.2573471069336px;
-	height:31.869529724121094px;
+	width:79px;
+	height:18px;
 	position:absolute;
-	left:24.70751953125px;
-	top:2.130462646484375px;
+	left:17px;
+	top:1px;
 	font-family:AppleSDGothicNeoL00;
 	text-align:left;
 	font-size:18px;
@@ -93,7 +93,7 @@
 	left:29.7470703125px;
 	top:1.420318603515625px;
 	font-family:AppleSDGothicNeoL00;
-	text-align:left;
+	text-align:middle;
 	font-size:18px;
 	letter-spacing:0;
 }

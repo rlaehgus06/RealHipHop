@@ -9,11 +9,11 @@ const Estimate = () => {
           <span className="e35_64">CHANGUP</span>
           <div className="e35_68">
             <div className="e35_69"></div>
-            <span className="e35_70">회원가입</span>
+            <span className="e35_70">마이페이지</span>
           </div>
           <div className="e35_74">
             <div className="e35_75"></div>
-            <span className="e35_76">LOGIN</span>
+            <span className="e35_76">LOGOUT</span>
           </div>
           <span className="e35_89">창업 견적서</span>
           <div className="e35_90">

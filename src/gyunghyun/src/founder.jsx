@@ -55,7 +55,7 @@ const Second_Main = () => {
             
           </div>
           <div className="e28_125">
-            <div className="e28_119"></div>
+            <button className="e28_119"></button>
             <span className="e28_122">제조업체</span>
           </div>
           

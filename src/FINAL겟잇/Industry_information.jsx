@@ -24,7 +24,7 @@ const Industry_Inform = () => {
       <button onClick={handleMainRequest}>
         <span className="e31_155"> CHANGUP</span>
       </button>
-      <span className="e35_16">홍길동 기업</span>
+      <span className="e35_16">수인 제조</span>
       <div className="e60_100">
         <span className="e35_17">♡123</span>
         <div className="e60_93">
