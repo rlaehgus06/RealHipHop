@@ -51,16 +51,16 @@ const Second_Main = () => {
           <div className="e28_126">
             
             <button className="e28_120" onClick={handleGotoFormalUser}></button>
-            <span className="e28_123">일반 사용자</span>
+            <span className="e28_123">출시 제품</span>
             
           </div>
           <div className="e28_125">
             <button className="e28_119"></button>
-            <span className="e28_122">제조업체</span>
+            <span className="e28_122">예비 창업자</span>
           </div>
           
             <button className="e28_118" ></button>
-            <span className="e28_121">예비창업자</span>
+            <span className="e28_121">외주 업체</span>
          
           <div className="e28_98" style={{ position: 'absolute', top: 0 }}>
             {/* 첫 번째 사진 */}

@@ -36,7 +36,7 @@ const LoginPage = () => {
         <input className="e60_108" placeholder="ID" onChange={(e) => {
             setEmail(e.target.value);
           }}></input>
-        <input className="e60_110" placeholder="PW" onChange={(e) => {
+        <input type='password' className="e60_110" placeholder="PW" onChange={(e) => {
             setPassword(e.target.value);
           }}></input>
         <button className="e61_38" onClick = {handleEmailLogin}><span className="e60_124">로그인하기</span></button>

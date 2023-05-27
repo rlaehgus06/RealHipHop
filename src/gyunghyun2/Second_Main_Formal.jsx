@@ -48,15 +48,15 @@ const desktop2 = () => {
             <div className="e60_57">
               <div className="e60_58">
                 <div className="ei60_58_28_120" ></div>
-                <span className="ei60_58_28_123">일반 사용자</span>
+                <span className="ei60_58_28_123">출시 제품</span>
               </div>
               <div className="e60_59">
                 <div className="ei60_59_28_119"></div>
-                <span className="ei60_59_28_122">제조업체</span>
+                <span className="ei60_59_28_122">예비 창업자</span>
               </div>
               <div className="e60_60">
                 <button className="ei60_60_28_118" onClick={handleServiceRequest}></button>
-                <span className="ei60_60_28_121">예비창업자</span>
+                <span className="ei60_60_28_121">외주 업체</span>
               </div>
               <div className="e60_61"></div>
               <button className="e60_63" onClick = {GotoFundingPage}></button>
